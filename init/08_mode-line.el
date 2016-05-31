@@ -1,9 +1,9 @@
-(setq evil-normal-state-tag   (propertize "[N]" 'face '((:background "green" :foreground "black")))
-      evil-emacs-state-tag    (propertize "[E]" 'face '((:background "orange" :foreground "black")))
-      evil-insert-state-tag   (propertize "[I]" 'face '((:background "red") :foreground "white"))
-      evil-motion-state-tag   (propertize "[M]" 'face '((:background "blue") :foreground "white"))
-      evil-visual-state-tag   (propertize "[V]" 'face '((:background "grey80" :foreground "black")))
-      evil-operator-state-tag (propertize "[O]" 'face '((:background "purple"))))
+(setq evil-normal-state-tag   (propertize "[Normal]" 'face '((:background "green" :foreground "black")))
+      evil-emacs-state-tag    (propertize "[Emacs]" 'face '((:background "orange" :foreground "black")))
+      evil-insert-state-tag   (propertize "[Insert]" 'face '((:background "red") :foreground "white"))
+      evil-motion-state-tag   (propertize "[Mova]" 'face '((:background "blue") :foreground "white"))
+      evil-visual-state-tag   (propertize "[Visual]" 'face '((:background "grey80" :foreground "black")))
+      evil-operator-state-tag (propertize "[Operator]" 'face '((:background "purple"))))
 
 (defun codefalling//simplify-major-mode-name ()
   "Return simplifyed major mode name"
