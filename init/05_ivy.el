@@ -9,7 +9,4 @@
       "ff" 'counsel-find-file
       "ss" 'swiper
       "bb" 'ivy-switch-buffer
-      )
-    (global-set-key (kbd "M-x") '(lambda () (interactive) (counsel-M-x "")))
-    )
-  )
+      )))
