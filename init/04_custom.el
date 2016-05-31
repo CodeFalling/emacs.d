@@ -20,3 +20,4 @@
 
 (set-default-font "Monaco 14")
 
+(add-hook 'prog-mode-hook 'electric-pair-mode)
