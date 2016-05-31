@@ -10,6 +10,7 @@
   (package-install 'init-loader))
 
 (require 'init-loader)
+(setq init-loader-byte-compile t)
 (init-loader-load "~/.emacs.d/init")
 
 (custom-set-variables
